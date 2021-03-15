@@ -237,7 +237,7 @@ def train(self, X, verbeta_outputse=True):
     return J, self.params
 
 LSTM.train = train
-model = LSTM(char_to_index, index_to_char, number_of_char, epochs = 5, lr = 0.01)
+model = LSTM(char_to_index, index_to_char, number_of_char, epochs = 10, lr = 0.01)
 
 J, params = model.train(data)
 plt.plot([i for i in range(len(J))], J)
