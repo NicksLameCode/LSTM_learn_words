@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-data = open('communistmanifesto.txt').read().lower()
+data = open('inserttextfilenamehere.txt').read().lower()
 characters = set(data)
 number_of_char = len(characters)
 
